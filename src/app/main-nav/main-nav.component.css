@@ -6,6 +6,12 @@
   width: 200px;
 }
 
+@media (min-width: 600px) {
+  .sidenav {
+    display: none;
+  }
+}
+
 .mat-toolbar.mat-primary {
   position: sticky;
   top: 0;
